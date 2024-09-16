@@ -6,7 +6,7 @@ public class GradesService {
 
     GradesRepository gradesRepository;
 
-    public Flux<> getGradesById(Flux<> requests) {
+    public Flux<> getGrades(Flux<> requests) {
         return gradesRepository.findGradesById(requests);
     }
 
